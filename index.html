@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="" />
+		<meta name="author" content="Tns IT & Design" />
+		<meta name="version" content="v0.1" />
+		<title>Tns IT & Design</title>
+
+		<!-- Favicon -->
+		<link rel="apple-touch-icon" href="img/favicon.png" />
+		<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+
+		<!-- Bootstrap core CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+
+		<!-- Font Awesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+			integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
+
+		<!-- Fonts -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+		<link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+		<!-- Owl Carousel -->
+		<link rel="stylesheet" href="plugins/owlcarousel/css/owl.carousel.min.css" />
+		<link rel="stylesheet" href="plugins/owlcarousel/css/owl.theme.default.css" />
+
+		<!-- Custom styles -->
+		<link rel="stylesheet" href="css/responsive.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+
+	<body>
+		<!-- Full website -->
+		<main id="full-website">
+			<!-- Navbar -->
+			<section id="menuBar" class="menuBar fixed-top">
+				<div class="container">
+					<div class="row">
+						<nav class="navbar navbar-expand-lg navBar">
+							<div class="col-md-2">
+								<a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="" /></a>
+								<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+									<span class="navbar-toggler-icon"></span>
+								</button>
+							</div>
+
+							<div class="col-md-10">
+								<div class="collapse navbar-collapse float-end" id="navbarText">
+									<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+										<li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+										<li class="nav-item"><a class="nav-link" href="about.html">About us</a></li>
+										<li class="nav-item"><a class="nav-link" href="work.html">Portfolio</a></li>
+										<li class="nav-item"><a class="nav-link" href="service.html">Our Service</a></li>
+										<li class="nav-item"><a class="nav-link" href="contact.html">Contact us</a></li>
+									</ul>
+								</div>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</section>
+
+			<!-- Slider -->
+			<section id="sliderSection" class="sliderSection">
+				<div id="slider" class="carousel slide" data-bs-ride="carousel">
+					<!-- <div class="carousel-indicators">
+						<button type="button" data-bs-target="#slider" data-bs-slide-to="0" aria-label="Slide 1" class="active"></button>
+						<button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+						<button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+						<button type="button" data-bs-target="#slider" data-bs-slide-to="3" aria-label="Slide 4" class=""></button>
+					</div> -->
+					<div class="carousel-inner">
+						<div class="carousel-item sliderCustomize active">
+							<img src="img/slider/home-slider-1.jpg" alt="" />
+							<div class="carousel-caption sliderTextCustomize d-md-block">
+								<h5>First slide label</h5>
+								<p>Some representative placeholder content for the first slide.</p>
+							</div>
+						</div>
+						<div class="carousel-item sliderCustomize">
+							<img src="img/slider/home-slider-2.jpg" alt="" />
+							<div class="carousel-caption sliderTextCustomize d-md-block">
+								<h5>Second slide label</h5>
+								<p>Some representative placeholder content for the second slide.</p>
+							</div>
+						</div>
+						<div class="carousel-item sliderCustomize">
+							<img src="img/slider/home-slider-3.jpg" alt="" />
+							<div class="carousel-caption sliderTextCustomize d-md-block">
+								<h5>Third slide label</h5>
+								<p>Some representative placeholder content for the third slide.</p>
+							</div>
+						</div>
+						<div class="carousel-item sliderCustomize">
+							<img src="img/slider/home-slider-4.jpg" alt="" />
+							<div class="carousel-caption sliderTextCustomize d-md-block">
+								<h5>Forth slide label</h5>
+								<p>Some representative placeholder content for the third slide.</p>
+							</div>
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</section>
+
+			<!-- Who we are -->
+			<section id="whoWeAre" class="whoWeAre r300s fullSiteWidthPadding fullSiteHeightPadding">
+				<div class="container">
+					<div class="row">
+						<div class="whoWeAreHeading r300h r300p globalHeading">
+							<h1>Who <span>we are</span></h1>
+							<p>
+								We are a team of developers, engineers, designers, and project managers from Bangladesh who help you transform your idea into a working product. We deliver value to our clients with attention to detail and a
+								customer-centric approach.
+							</p>
+						</div>
+						<div class="whoWeAreContents">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="whoWeAreContentsLeft">
+										<h4>We'll help you :</h4>
+										<p>Our experts will take care of your enterprise-level solutions. And custom software development services in Healthcare. Social Networks, E-learning, E-commerce, ERP, CRM, Finance, and Travel industries.</p>
+										<ul>
+											<li>To implement IT solution</li>
+											<li>To maintain the exsisting projects</li>
+											<li>To develop your MVP'S prototypes</li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="whoWeAreContentsRight">
+										<img src="img/home/about-us-alternative.jpg" alt="" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- We share common values -->
+			<section id="weShareCommonValues" class="weShareCommonValues r300s fullSiteWidthPadding fullSiteHeightPadding">
+				<div class="container">
+					<div class="row">
+						<div class="weShareCommonValuesHeading r300h">
+							<h1>We share <span>common values</span></h1>
+							<p>
+								Located in Dhanmondi, Dhaka, Bangladesh, TnS IT & Design team has a local mental and a Western mindset. Productive communication is one of our significant incentives, and you will always have a transparent project
+								pipeline, on-time product, delivery, and consultation support
+							</p>
+						</div>
+						<div class="weShareCommonValuesContents">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="weShareCommonValuesContentsLeft">
+										<img src="img/home/metting.jpg" alt="" />
+										<p>
+											We have Asian and Western mentality, customs, traditions and Asian, American and European mindset. Productive communication is one of our major incentives, and you will never have any problems with
+											interpersonal relationships and mutual understanding.
+										</p>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="weShareCommonValuesContentsRight">
+										<h4>Efficiency</h4>
+										<p>We ensure accurate and prompt delivery by leveraging software technologies and innovative delivery principles.</p>
+									</div>
+									<div class="weShareCommonValuesContentsRight">
+										<h4>Transparency</h4>
+										<p>Agile-based approach allows teams to understand delivery status, manage risks, and introduce new features.</p>
+									</div>
+									<div class="weShareCommonValuesContentsRight">
+										<h4>Speed</h4>
+										<p>Optimizing processes, methods, tools, and regular software maintenance help us deploy faster and on time.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Our Services -->
+			<section id="ourServices" class="ourServices fullSiteWidthPadding r300s fullSiteHeightPadding">
+				<div class="container">
+					<div class="ourServiceHeading">
+						<div class="row">
+							<div class="col-md-4">
+								<h1 class="ourServiceHeadingText r300h">Our <span>Services</span></h1>
+							</div>
+							<div class="col-md-7">
+								<p class="ourServiceHeadingParagrap">
+									We deliver top-notch technologies and guarantee a low- risk approach to your project evaluation. Choose Cortlex for your custom software development to maximize the efficiency of your product strategy.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="ourServiceContents">
+						<div class="row">
+							<div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+								<a href="web-mobile-development.html">
+									<div class="singleService">
+										<span><i class="fa-solid fa-gear"></i></span>
+										<h4>Web and mobile development</h4>
+										<p>We offer Web and mobile development services to cover business needs of any complexity and scalability.</p>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+								<a href="user-experience-design.html">
+									<div class="singleService">
+										<span><i class="fa-solid fa-mobile-screen"></i></span>
+										<h4>User experience design</h4>
+										<p>World-class user experiences with pixel perfect user interface designs for your digital products.</p>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+								<a href="video-production-photography.html">
+									<div class="singleService">
+										<span><i class="fa-solid fa-gear"></i></span>
+										<h4>Video production & photography</h4>
+										<p>Engaging and high-end video and photography services to help your business stand out.</p>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+								<a href="digital-marketing.html">
+									<div class="singleService">
+										<span><i class="fa-solid fa-gear"></i></span>
+										<h4>Digital marketing</h4>
+										<p>Strategic, performance-driven and comprehensive digital marketing solutions for your brand.</p>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+								<a href="branding-communications.html">
+									<div class="singleService">
+										<span><i class="fa-solid fa-gear"></i></span>
+										<h4>Branding & communications</h4>
+										<p>Strategic brands that successfully separate you from the noise.</p>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+								<a href="search-engine-optimisation.html">
+									<div class="singleService">
+										<span><i class="fa-solid fa-gear"></i></span>
+										<h4>Search Engine Optimisation</h4>
+										<p>Drive more targeted traffic to your website with our comprehensive SEO solutions.</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="ourServiceContentsAllServiceButton">
+							<button class="btn">All Services</button>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Technologies We Are Using -->
+			<section id="technologiesWeAreUsing" class="technologiesWeAreUsing r300s fullSiteWidthPadding fullSiteHeightPadding">
+				<div class="container">
+					<div class="technologiesWeAreUsingHeading r300h">
+						<div class="row">
+							<h4>Technologies <span>We Use</span></h4>
+						</div>
+					</div>
+					<div class="technologiesWeAreUsingContent">
+						<div class="row">
+							<!-- owl-carousel -->
+							<div id="technologiesWeAreUsingItem" class="owl-carousel owl-theme technologiesAndBrandCommonCss1">
+								<div class="singleTechnology technologiesAndBrandCommonCss2">
+									<img src="img/technologies/laravel.png" alt="" />
+									<h4>Laravel</h4>
+								</div>
+								<div class="singleTechnology technologiesAndBrandCommonCss2">
+									<img src="img/technologies/php.png" alt="" />
+									<h4>PHP</h4>
+								</div>
+								<div class="singleTechnology technologiesAndBrandCommonCss2">
+									<img src="img/technologies/html.png" alt="" />
+									<h4>HTML</h4>
+								</div>
+								<div class="singleTechnology technologiesAndBrandCommonCss2">
+									<img src="img/technologies/css.png" alt="" />
+									<h4>CSS</h4>
+								</div>
+								<div class="singleTechnology technologiesAndBrandCommonCss2">
+									<img src="img/technologies/Js.png" alt="" />
+									<h4>JavaScript</h4>
+								</div>
+								<div class="singleTechnology technologiesAndBrandCommonCss2">
+									<img src="img/technologies/Boostrap.png" alt="" />
+									<h4>Boostrap</h4>
+								</div>
+								<div class="singleTechnology technologiesAndBrandCommonCss2">
+									<img src="img/technologies/wordpress.png" alt="" />
+									<h4>WordPress</h4>
+								</div>
+								<div class="singleTechnology technologiesAndBrandCommonCss2">
+									<img src="img/technologies/msql.png" alt="" />
+									<h4>MySQL</h4>
+								</div>
+								<div class="singleTechnology technologiesAndBrandCommonCss2">
+									<img src="img/technologies/after-effects.png" alt="" />
+									<h4>After Effects</h4>
+								</div>
+								<div class="singleTechnology technologiesAndBrandCommonCss2">
+									<img src="img/technologies/cinema-4d.png" alt="" />
+									<h4>Cinema 4D</h4>
+								</div>
+								<div class="singleTechnology technologiesAndBrandCommonCss2">
+									<img src="img/technologies/figma.png" alt="" />
+									<h4>Figma</h4>
+								</div>
+								<div class="singleTechnology technologiesAndBrandCommonCss2">
+									<img src="img/technologies/illustration.png" alt="" />
+									<h4>Illustration</h4>
+								</div>
+								<div class="singleTechnology technologiesAndBrandCommonCss2">
+									<img src="img/technologies/photoshop.png" alt="" />
+									<h4>Photoshop</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Clients Review -->
+			<section id="clientReview" class="clientReview r300s fullSiteWidthPadding fullSiteHeightPadding">
+				<div class="container">
+					<div class="clientReviewHeading r300h r300p globalHeading">
+						<div class="row">
+							<h1>Clients <span>Review</span></h1>
+							<p>We've worked with industry leaders, technology innovators, and product owners. We are proud to share our customers' feedback about our work.</p>
+						</div>
+					</div>
+					<div class="clientReviewContents">
+						<div class="row">
+							<!-- owl-carousel -->
+							<div id="clientReviewItem" class="owl-carousel">
+								<div class="singleClientReview">
+									<div class="singleClientReviewImg">
+										<img src="img/about_me.png" alt="" />
+									</div>
+
+									<div class="clientDetails">
+										<h4>Uzzal Islam</h4>
+										<h6>Accountant, XYZ Company</h6>
+										<p>It was great working with TnS IT & Design. I can't think of any improvements to make.</p>
+									</div>
+								</div>
+								<div class="singleClientReview">
+									<div class="singleClientReviewImg">
+										<img src="img/about_me.png" alt="" />
+									</div>
+
+									<div class="clientDetails">
+										<h4>Uzzal Islam</h4>
+										<h6>Accountant, XYZ Company</h6>
+										<p>It was great working with TnS IT & Design. I can't think of any improvements to make.</p>
+									</div>
+								</div>
+								<div class="singleClientReview">
+									<div class="singleClientReviewImg">
+										<img src="img/about_me.png" alt="" />
+									</div>
+
+									<div class="clientDetails">
+										<h4>Uzzal Islam</h4>
+										<h6>Accountant, XYZ Company</h6>
+										<p>It was great working with TnS IT & Design. I can't think of any improvements to make.</p>
+									</div>
+								</div>
+								<div class="singleClientReview">
+									<div class="singleClientReviewImg">
+										<img src="img/about_me.png" alt="" />
+									</div>
+
+									<div class="clientDetails">
+										<h4>Uzzal Islam</h4>
+										<h6>Accountant, XYZ Company</h6>
+										<p>It was great working with TnS IT & Design. I can't think of any improvements to make.</p>
+									</div>
+								</div>
+								<div class="singleClientReview">
+									<div class="singleClientReviewImg">
+										<img src="img/about_me.png" alt="" />
+									</div>
+
+									<div class="clientDetails">
+										<h4>Uzzal Islam</h4>
+										<h6>Accountant, XYZ Company</h6>
+										<p>It was great working with TnS IT & Design. I can't think of any improvements to make.</p>
+									</div>
+								</div>
+								<div class="singleClientReview">
+									<div class="singleClientReviewImg">
+										<img src="img/about_me.png" alt="" />
+									</div>
+
+									<div class="clientDetails">
+										<h4>Uzzal Islam</h4>
+										<h6>Accountant, XYZ Company</h6>
+										<p>It was great working with TnS IT & Design. I can't think of any improvements to make.</p>
+									</div>
+								</div>
+								<div class="singleClientReview">
+									<div class="singleClientReviewImg">
+										<img src="img/about_me.png" alt="" />
+									</div>
+
+									<div class="clientDetails">
+										<h4>Uzzal Islam</h4>
+										<h6>Accountant, XYZ Company</h6>
+										<p>It was great working with TnS IT & Design. I can't think of any improvements to make.</p>
+									</div>
+								</div>
+								<div class="singleClientReview">
+									<div class="singleClientReviewImg">
+										<img src="img/about_me.png" alt="" />
+									</div>
+
+									<div class="clientDetails">
+										<h4>Uzzal Islam</h4>
+										<h6>Accountant, XYZ Company</h6>
+										<p>It was great working with TnS IT & Design. I can't think of any improvements to make.</p>
+									</div>
+								</div>
+								<div class="singleClientReview">
+									<div class="singleClientReviewImg">
+										<img src="img/about_me.png" alt="" />
+									</div>
+
+									<div class="clientDetails">
+										<h4>Uzzal Islam</h4>
+										<h6>Accountant, XYZ Company</h6>
+										<p>It was great working with TnS IT & Design. I can't think of any improvements to make.</p>
+									</div>
+								</div>
+								<div class="singleClientReview">
+									<div class="singleClientReviewImg">
+										<img src="img/about_me.png" alt="" />
+									</div>
+
+									<div class="clientDetails">
+										<h4>Uzzal Islam</h4>
+										<h6>Accountant, XYZ Company</h6>
+										<p>It was great working with TnS IT & Design. I can't think of any improvements to make.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Our Brand -->
+			<section id="ourBrand" class="ourBrand r300s fullSiteWidthPadding fullSiteHeightPadding">
+				<div class="container">
+					<div class="ourBrandHeading globalHeading r300h">
+						<div class="row">
+							<h1>Brands we’ve <span>collaborated with</span></h1>
+						</div>
+					</div>
+					<div class="ourBrandContent">
+						<div class="row">
+							<div class="col-sm-6 col-md-3 col-lg-2">
+								<div class="singleOurBrand">
+									<img src="img/clients/hi-teach-logo.png" alt="" />
+									<h4>Hi-Tech</h4>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-3 col-lg-2">
+								<div class="singleOurBrand">
+									<img src="img/clients/jmg-logo.png" alt="" />
+									<h4>JMG</h4>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-3 col-lg-2">
+								<div class="singleOurBrand">
+									<img src="img/clients/pran-logo.png" alt="" />
+									<h4>Parn</h4>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-3 col-lg-2">
+								<div class="singleOurBrand">
+									<img src="img/clients/tafaseel-logo.png" alt="" />
+									<h4>Tafaseel</h4>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-3 col-lg-2">
+								<div class="singleOurBrand technologiesAndBrandCommonCss2">
+									<img src="img/clients/vip-watch-logo.png" alt="" />
+									<h4>VIP-Watches</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Footer -->
+			<footer id="footer" class="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 col-lg-3">
+							<div class="footerLogoAndText headingForFooter">
+								<a href="#"><img src="img/logo.png" alt="" /></a>
+								<p>Where strategy meets Creativity, Well-Documented, Clean-Codes, Transparency, Efficiency and Speed</p>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="footerQuickLink headingForFooter">
+								<h3>Qucik Links</h3>
+								<div class="footerQuickLinkContent">
+									<li><a href="#">About us</a></li>
+									<li><a href="#">Services</a></li>
+									<li><a href="#">Web Development</a></li>
+									<li><a href="#">Contact us</a></li>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="footerAddress headingForFooter">
+								<h3>Address</h3>
+								<div class="footerAddressContent">
+									<h6>Phone: <span>+880-1933-126-160</span></h6>
+									<h6>Email: <span>sagor_islam@icloud.com</span></h6>
+									<h6>House: <span>42/A, Road: 9/A, Dhanmondi, Dhaka-1209, Bangaldesh</span></h6>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="footerContacUs headingForFooter">
+								<h3>Soical Media</h3>
+								<div class="footerSocialIcons">
+									<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+									<a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+									<a href="#"><i class="fa-brands fa-github"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="container-fluid footerBottomBorder">
+					<div class="container">
+						<div class="footerBottom">
+							<p>© Copyright 2023. All Rights Reserved.</p>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+			<script>
+				!(function () {
+					var e, t, n, a;
+					window.MyAliceWebChat ||
+						(((t = document.createElement("div")).id = "myAliceWebChat"),
+						((n = document.createElement("script")).type = "text/javascript"),
+						(n.async = !0),
+						(n.src = "https://myalice-widget.netlify.app/index.js"),
+						(a = (e = document.body.getElementsByTagName("script"))[e.length - 1]).parentNode.insertBefore(n, a),
+						a.parentNode.insertBefore(t, a),
+						n.addEventListener("load", function () {
+							MyAliceWebChat.init({
+								selector: "myAliceWebChat",
+								number: "971555147420",
+								message: "WhatsApp",
+								color: "#25D366",
+								channel: "wa",
+								boxShadow: "none",
+								text: "WhatsApp",
+								theme: "light",
+								position: "right",
+								mb: "20px",
+								mx: "20px",
+								radius: "5px",
+							});
+						}));
+				})();
+			</script>
+		</main>
+
+		<!-- JavaScript -->
+		<script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+		<!-- Owl Carousel -->
+		<script src="plugins/owlcarousel/js/owl.carousel.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

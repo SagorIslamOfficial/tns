@@ -1,0 +1,1785 @@
+/* Small devices (landscape phones, 300px to 400px) */
+@media (min-width: 300px) and (max-width: 400px) {
+	/* Global #css heading */
+	.r300s {
+		padding-bottom: 20% !important;
+	}
+
+	.fullSiteWidthPadding {
+		padding-right: 5% !important;
+		padding-left: 5% !important;
+	}
+
+	.r300h {
+		padding: 0 0 15px 0 !important;
+	}
+
+	.r300h h1 {
+		font-size: 24px !important;
+		font-weight: 600;
+	}
+
+	.r300p {
+		text-align: justify !important;
+	}
+
+	/* Home Page */
+	.sliderTextCustomize {
+		padding-bottom: 20%;
+	}
+
+	.sliderCustomize img {
+		height: 250px !important;
+	}
+
+	.sliderTextCustomize h5 {
+		font-size: 25px !important;
+		padding: 0px 0px !important;
+	}
+
+	.sliderTextCustomize p {
+		font-size: 16px !important;
+		padding: 0 0% !important;
+	}
+
+	.whoWeAreContentsRight img {
+		width: 100% !important;
+		float: none !important;
+		padding-top: 25px !important;
+	}
+
+	.weShareCommonValuesHeading p {
+		padding-right: 0% !important;
+	}
+
+	.weShareCommonValuesContentsLeft img {
+		width: 100% !important;
+		height: 200px !important;
+	}
+
+	.weShareCommonValuesContentsLeft p {
+		margin: 0 !important;
+	}
+
+	.weShareCommonValuesContentsLeft {
+		padding-bottom: 40px;
+	}
+
+	.ourServiceHeading {
+		padding-bottom: 15% !important;
+	}
+
+	.ourServiceContentsAllServiceButton button {
+		padding: 4% 8% !important;
+	}
+
+	.owl-nav {
+		text-align: center;
+	}
+
+	.owl-carousel .owl-nav button.owl-next,
+	.owl-carousel .owl-nav button.owl-prev {
+		padding: 0px 5% !important;
+		font-size: 50px;
+	}
+
+	/* About Us Page */
+	.aboutBannerImager img {
+		height: 250px !important;
+	}
+
+	.singleOurValues {
+		padding-bottom: 15%;
+	}
+
+	.honorablePersonMessageInnerMessage p {
+		font-size: 15px !important;
+		line-height: 30px !important;
+	}
+
+	.honorablePersonMessageBgColor {
+		padding: 5% 5% !important;
+		border-radius: 10px !important;
+	}
+
+	.honorablePersonMessageInnerMessage p span i {
+		font-size: 15px !important;
+		margin-left: -20px !important;
+	}
+
+	.honorablePersonMessageInnerMessage span {
+		font-size: 16px !important;
+	}
+
+	.honorablePersonMessageInnerImage img {
+		border-radius: 10px !important;
+		width: 100% !important;
+		float: none !important;
+		margin-top: 10%;
+	}
+
+	.singleFactAboutUs {
+		padding-bottom: 10% !important;
+	}
+
+	.factAboutUsText p {
+		padding: 6% 0% 0 0% !important;
+	}
+
+	/* Fortfolio page */
+	section#workBanner img {
+		height: 250px !important;
+	}
+
+	.singleProjectImage img {
+		height: 200px !important;
+	}
+
+	.codeWithDemo {
+		text-align: center !important;
+	}
+
+	/* Service Page */
+	section#serviceBanner {
+		margin-bottom: 100px !important;
+	}
+
+	.serviceBannerImager img {
+		width: 70% !important;
+		height: 150px !important;
+		border-radius: 10px !important;
+		transform: translate(21%) !important;
+	}
+
+	.contactUsPersonInfo img {
+		width: 100% !important;
+	}
+
+	/* Contact Page */
+	section#contactUsByTexts {
+		padding-bottom: 10% !important;
+		padding-top: 10% !important;
+	}
+
+	.contactUsByTextsHeading h1 {
+		padding: 0 10% 5% 10% !important;
+	}
+
+	.singleContactUsByTexts {
+		padding-bottom: 5%;
+	}
+
+	.contactBannerText {
+		margin-top: 10%;
+		margin-bottom: -10% !important;
+	}
+
+	.contactUsPersonInfo img {
+		width: 75% !important;
+	}
+
+	.contactUsPersonInfo {
+		text-align: center;
+	}
+
+	.contactUsPersonInfoData {
+		text-align: center !important;
+	}
+
+	.googleMapInner iframe {
+		height: 300px;
+	}
+
+	.singleContactUsByTexts {
+		padding-bottom: 2%;
+	}
+
+	/* Single service */
+	.singleServiceBannerText h3 {
+		font-size: 30px !important;
+		line-height: 50px !important;
+		margin-bottom: 15% !important;
+		padding: 10% 0% 0 0% !important;
+	}
+
+	.singleServiceBannerText h3:after {
+		width: 30% !important;
+	}
+
+	.singleServiceBannerText p {
+		font-size: 18px !important;
+		line-height: 30px !important;
+		padding: 0px 0% !important;
+		text-align: justify !important;
+	}
+
+	.singleServiceDetailsContents img {
+		height: 150px !important;
+	}
+
+	.singleServiceDetailsContents p {
+		font-size: 18px !important;
+		line-height: 30px !important;
+		padding: 5% 0% !important;
+	}
+
+	#singleServiceAccordionFlush button {
+		font-size: 16px !important;
+		line-height: 22px !important;
+		padding-right: 0;
+	}
+
+	.singleServiceAccordionFlushInnerData {
+		font-size: 16px !important;
+		font-weight: 400 !important;
+		line-height: 23px !important;
+	}
+
+	.accordion-body {
+		padding-left: 10px !important;
+	}
+
+	#singleServiceAccordionFlush {
+		padding: 0 0% !important;
+	}
+
+	.whyChooseUsSingle {
+		padding: 0 0% 8% 0% !important;
+	}
+
+	.singleServiceWhyChooseUsSingleSectionPicture img {
+		height: unset !important;
+		width: 100% !important;
+	}
+
+	.singleServiceWhyChooseUsSingleSectionTexts h5 {
+		font-size: 30px !important;
+	}
+
+	.singleServiceWhyChooseUsSingleSectionTexts p {
+		font-size: 16px !important;
+		line-height: 26px !important;
+	}
+
+	.whyChooseUsSingle:nth-child(odd) .singleServiceWhyChooseUsSingleSectionPicture {
+		margin-left: -48px;
+	}
+
+	/* Footer for all Pages */
+	#footer {
+		padding: 10% 0% 0% 0% !important;
+		text-align: center;
+	}
+
+	.footerLogoAndText p {
+		padding: 0 5% !important;
+	}
+
+	.headingForFooter {
+		padding-bottom: 40px;
+	}
+
+	.headingForFooter h3 {
+		margin-bottom: 5% !important;
+	}
+}
+
+/* Small devices (landscape phones, 401px to 480px) */
+@media (min-width: 401px) and (max-width: 480px) {
+	/* Global #css heading */
+	.r300s {
+		padding-bottom: 10% !important;
+	}
+
+	.fullSiteWidthPadding {
+		padding-right: 8% !important;
+		padding-left: 8% !important;
+	}
+
+	.r300h {
+		padding: 0 0 15px 0 !important;
+	}
+
+	.r300h h1 {
+		font-size: 24px !important;
+		font-weight: 600;
+	}
+
+	.r300p {
+		text-align: justify !important;
+	}
+
+	/* Home Page */
+	.sliderTextCustomize {
+		padding-bottom: 20%;
+	}
+
+	.sliderCustomize img {
+		height: 250px !important;
+	}
+
+	.sliderTextCustomize h5 {
+		font-size: 25px !important;
+		padding: 0px 0px !important;
+	}
+
+	.sliderTextCustomize p {
+		font-size: 16px !important;
+		padding: 0 0% !important;
+	}
+
+	.whoWeAreContentsRight img {
+		width: 100% !important;
+		float: none !important;
+		padding-top: 25px !important;
+	}
+
+	.weShareCommonValuesHeading p {
+		padding-right: 0% !important;
+	}
+
+	.weShareCommonValuesContentsLeft img {
+		width: 100% !important;
+		height: 200px !important;
+	}
+
+	.weShareCommonValuesContentsLeft p {
+		margin: 0 !important;
+	}
+
+	.weShareCommonValuesContentsLeft {
+		padding-bottom: 40px;
+	}
+
+	.ourServiceHeading {
+		padding-bottom: 15% !important;
+	}
+
+	.ourServiceContents {
+		padding: 0 7%;
+	}
+
+	.ourServiceContentsAllServiceButton button {
+		padding: 4% 8% !important;
+	}
+
+	.owl-nav {
+		text-align: center;
+	}
+
+	.owl-carousel .owl-nav button.owl-next,
+	.owl-carousel .owl-nav button.owl-prev {
+		padding: 0px 5% !important;
+		font-size: 50px;
+	}
+
+	.singleOurBrand img {
+		width: 60% !important;
+	}
+
+	.technologiesAndBrandCommonCss2 h4,
+	.singleOurBrand h4 {
+		margin: 2% 0 5% 0 !important;
+	}
+
+	/* About Us Page */
+	.aboutBannerImager img {
+		height: 300px !important;
+	}
+
+	.singleOurValues {
+		padding-bottom: 15%;
+	}
+
+	.honorablePersonMessageInnerMessage p {
+		font-size: 15px !important;
+		line-height: 30px !important;
+	}
+
+	.honorablePersonMessageBgColor {
+		padding: 5% 5% !important;
+		border-radius: 10px !important;
+	}
+
+	.honorablePersonMessageInnerMessage p span i {
+		font-size: 15px !important;
+		margin-left: -20px !important;
+	}
+
+	.honorablePersonMessageInnerMessage span {
+		font-size: 16px !important;
+	}
+
+	.honorablePersonMessageInnerImage img {
+		border-radius: 10px !important;
+		width: 100% !important;
+		float: none !important;
+		margin-top: 10%;
+	}
+
+	.singleFactAboutUs {
+		padding-bottom: 10% !important;
+	}
+
+	.factAboutUsText p {
+		padding: 6% 0% 0 0% !important;
+	}
+
+	/* Fortfolio page */
+	section#workBanner img {
+		height: 250px !important;
+	}
+
+	.singleProjectImage img {
+		height: 200px !important;
+	}
+
+	.codeWithDemo {
+		text-align: center !important;
+	}
+
+	/* Service Page */
+	section#serviceBanner {
+		margin-bottom: 130px !important;
+		padding: 5% 0 75px 0 !important;
+	}
+
+	.serviceBannerImager img {
+		width: 70% !important;
+		height: 170px !important;
+		border-radius: 10px !important;
+		transform: translate(21%) !important;
+	}
+
+	.contactUsPersonInfo img {
+		width: 100% !important;
+	}
+
+	/* Contact Page */
+	section#contactUsByTexts {
+		padding-bottom: 10% !important;
+		padding-top: 10% !important;
+	}
+
+	.contactUsByTextsHeading h1 {
+		padding: 0 10% 5% 10% !important;
+	}
+
+	.singleContactUsByTexts {
+		padding-bottom: 5%;
+	}
+
+	.contactBannerText {
+		margin-top: 10%;
+		margin-bottom: -5% !important;
+	}
+
+	.contactUsPersonInfo img {
+		width: 65% !important;
+	}
+
+	.contactUsPersonInfo {
+		text-align: center;
+	}
+
+	.contactUsPersonInfoData {
+		text-align: center !important;
+	}
+
+	.googleMapInner iframe {
+		height: 300px;
+	}
+
+	.singleContactUsByTexts {
+		padding-bottom: 2%;
+	}
+
+	/* Single service */
+	.singleServiceBannerText h3 {
+		font-size: 30px !important;
+		line-height: 50px !important;
+		margin-bottom: 15% !important;
+		padding: 10% 0% 0 0% !important;
+	}
+
+	.singleServiceBannerText h3:after {
+		width: 30% !important;
+	}
+
+	.singleServiceBannerText p {
+		font-size: 18px !important;
+		line-height: 30px !important;
+		padding: 0px 0% !important;
+		text-align: justify !important;
+	}
+
+	.singleServiceDetailsContents img {
+		height: 200px !important;
+	}
+
+	.singleServiceDetailsContents p {
+		font-size: 18px !important;
+		line-height: 30px !important;
+		padding: 5% 0% !important;
+	}
+
+	#singleServiceAccordionFlush button {
+		font-size: 16px !important;
+		line-height: 22px !important;
+		padding-right: 0;
+	}
+
+	.singleServiceAccordionFlushInnerData {
+		font-size: 16px !important;
+		font-weight: 400 !important;
+		line-height: 23px !important;
+	}
+
+	.accordion-body {
+		padding-left: 10px !important;
+	}
+
+	#singleServiceAccordionFlush {
+		padding: 0 0% !important;
+	}
+
+	.whyChooseUsSingle {
+		padding: 0 0% 8% 0% !important;
+	}
+
+	.singleServiceWhyChooseUsSingleSectionPicture img {
+		height: unset !important;
+		width: 100% !important;
+	}
+
+	.singleServiceWhyChooseUsSingleSectionTexts h5 {
+		font-size: 30px !important;
+	}
+
+	.singleServiceWhyChooseUsSingleSectionTexts p {
+		font-size: 16px !important;
+		line-height: 26px !important;
+	}
+
+	.whyChooseUsSingle:nth-child(odd) .singleServiceWhyChooseUsSingleSectionPicture {
+		margin-left: -65px;
+	}
+
+	/* Footer for all Pages */
+	#footer {
+		padding: 10% 0% 0% 0% !important;
+		text-align: center;
+	}
+
+	.footerLogoAndText p {
+		padding: 0 10% !important;
+	}
+
+	.headingForFooter {
+		padding-bottom: 40px;
+	}
+
+	.headingForFooter h3 {
+		margin-bottom: 5% !important;
+	}
+}
+
+/* Small devices (landscape phones, 481px to 575px) */
+@media (min-width: 481px) and (max-width: 575px) {
+	/* Global #css heading */
+	.r300s {
+		padding-bottom: 10% !important;
+	}
+
+	.fullSiteWidthPadding {
+		padding-right: 8% !important;
+		padding-left: 8% !important;
+	}
+
+	.r300h {
+		padding: 0 0 15px 0 !important;
+	}
+
+	.r300h h1 {
+		font-size: 24px !important;
+		font-weight: 600;
+	}
+
+	.r300p {
+		text-align: justify !important;
+	}
+
+	/* Home Page */
+	.sliderTextCustomize {
+		padding-bottom: 13% !important;
+	}
+
+	.sliderCustomize img {
+		height: 300px !important;
+	}
+
+	.sliderTextCustomize h5 {
+		font-size: 25px !important;
+		padding: 0px 0px !important;
+	}
+
+	.sliderTextCustomize p {
+		font-size: 16px !important;
+		padding: 0 0% !important;
+	}
+
+	.whoWeAreContentsRight img {
+		width: 100% !important;
+		float: none !important;
+		margin-top: 25px !important;
+	}
+
+	.weShareCommonValuesHeading p {
+		padding-right: 0% !important;
+	}
+
+	.weShareCommonValuesContentsLeft img {
+		width: 100% !important;
+		height: 200px !important;
+	}
+
+	.weShareCommonValuesContentsLeft p {
+		margin: 0 !important;
+	}
+
+	.weShareCommonValuesContentsLeft {
+		padding-bottom: 40px;
+	}
+
+	.ourServiceHeading {
+		padding-bottom: 15% !important;
+	}
+
+	.ourServiceContents {
+		padding: 0 10%;
+	}
+
+	.ourServiceContentsAllServiceButton button {
+		padding: 4% 8% !important;
+	}
+
+	.owl-nav {
+		text-align: center;
+	}
+
+	.owl-carousel .owl-nav button.owl-next,
+	.owl-carousel .owl-nav button.owl-prev {
+		padding: 0px 5% !important;
+		font-size: 50px;
+	}
+
+	.singleOurBrand img {
+		width: 60% !important;
+	}
+
+	.technologiesAndBrandCommonCss2 h4,
+	.singleOurBrand h4 {
+		margin: 2% 0 5% 0 !important;
+	}
+
+	/* About Us Page */
+	.aboutBannerImager img {
+		height: 350px !important;
+	}
+
+	.singleOurValues {
+		padding-bottom: 10%;
+	}
+
+	.honorablePersonMessageInnerMessage p {
+		font-size: 15px !important;
+		line-height: 30px !important;
+	}
+
+	.honorablePersonMessageBgColor {
+		padding: 5% 5% !important;
+		border-radius: 10px !important;
+	}
+
+	.honorablePersonMessageInnerMessage p span i {
+		font-size: 15px !important;
+		margin-left: -20px !important;
+	}
+
+	.honorablePersonMessageInnerMessage span {
+		font-size: 16px !important;
+	}
+
+	.honorablePersonMessageInnerImage img {
+		border-radius: 10px !important;
+		width: 100% !important;
+		float: none !important;
+		margin-top: 10%;
+	}
+
+	.singleFactAboutUs {
+		padding-bottom: 10% !important;
+	}
+
+	.singleFactAboutUs p {
+		margin-left: 41% !important;
+	}
+
+	.factAboutUsText p {
+		padding: 6% 0% 0 0% !important;
+	}
+
+	.team50 {
+		width: 90% !important;
+	}
+
+	/* Fortfolio page */
+	section#workBanner img {
+		height: 300px !important;
+	}
+
+	.singleProjectImage img {
+		height: 280px !important;
+	}
+
+	/* Service Page */
+	section#serviceBanner {
+		margin-bottom: 130px !important;
+		padding: 5% 0 100px 0 !important;
+	}
+
+	.serviceBannerImager img {
+		width: 70% !important;
+		height: 200px !important;
+		border-radius: 10px !important;
+		transform: translate(21%) !important;
+	}
+
+	.contactUsPersonInfo img {
+		width: 65% !important;
+	}
+
+	.contactUsPersonInfo {
+		text-align: center;
+	}
+
+	.contactUsPersonInfoData {
+		text-align: center !important;
+	}
+
+	/* Contact Page */
+	section#contactUsByTexts {
+		padding-bottom: 10% !important;
+		padding-top: 10% !important;
+	}
+
+	.contactUsByTextsHeading h1 {
+		padding: 0 10% 5% 10% !important;
+	}
+
+	.singleContactUsByTexts {
+		padding-bottom: 5%;
+	}
+
+	.contactBannerText {
+		margin-top: 10%;
+		margin-bottom: -5% !important;
+	}
+
+	/* Single service */
+	.singleServiceBannerText h3 {
+		font-size: 40px !important;
+		line-height: 50px !important;
+		margin-bottom: 15% !important;
+		padding: 10% 0% 0 0% !important;
+	}
+
+	.singleServiceBannerText h3:after {
+		width: 30% !important;
+	}
+
+	.singleServiceBannerText p {
+		font-size: 18px !important;
+		line-height: 30px !important;
+		padding: 0px 0% !important;
+		text-align: justify !important;
+	}
+
+	.singleServiceDetailsContents img {
+		height: 200px !important;
+	}
+
+	.singleServiceDetailsContents p {
+		font-size: 18px !important;
+		line-height: 30px !important;
+		padding: 5% 0% !important;
+	}
+
+	#singleServiceAccordionFlush button {
+		font-size: 16px !important;
+		line-height: 22px !important;
+		padding-right: 0;
+	}
+
+	.singleServiceAccordionFlushInnerData {
+		font-size: 16px !important;
+		font-weight: 400 !important;
+		line-height: 23px !important;
+	}
+
+	.accordion-body {
+		padding-left: 10px !important;
+	}
+
+	#singleServiceAccordionFlush {
+		padding: 0 0% !important;
+	}
+
+	.whyChooseUsSingle {
+		padding: 0 0% 8% 0% !important;
+	}
+
+	.singleServiceWhyChooseUsSingleSectionPicture img {
+		height: unset !important;
+		width: 100% !important;
+	}
+
+	.singleServiceWhyChooseUsSingleSectionTexts h5 {
+		font-size: 30px !important;
+	}
+
+	.singleServiceWhyChooseUsSingleSectionTexts p {
+		font-size: 16px !important;
+		line-height: 26px !important;
+	}
+
+	.whyChooseUsSingle:nth-child(odd) .singleServiceWhyChooseUsSingleSectionPicture {
+		margin-left: -83px;
+	}
+
+	/* Footer for all Pages */
+	#footer {
+		padding: 10% 0% 0% 0% !important;
+		text-align: center;
+	}
+
+	.footerLogoAndText p {
+		padding: 0 5% !important;
+	}
+
+	.headingForFooter {
+		padding-bottom: 40px;
+	}
+
+	.headingForFooter h3 {
+		margin-bottom: 2% !important;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+	/* Global #css heading */
+	.r300s {
+		padding-bottom: 10% !important;
+	}
+
+	.fullSiteWidthPadding {
+		padding-right: 0% !important;
+		padding-left: 0% !important;
+	}
+
+	.r300h {
+		padding: 0 0 30px 0 !important;
+	}
+
+	.r300h h1 {
+		font-size: 24px !important;
+		font-weight: 600;
+	}
+
+	.r300p {
+		text-align: justify !important;
+	}
+
+	/* Home Page */
+	.sliderTextCustomize {
+		padding-bottom: 18.5% !important;
+	}
+
+	.sliderCustomize img {
+		height: 400px !important;
+	}
+
+	.sliderTextCustomize h5 {
+		font-size: 25px !important;
+		padding: 0px 0px !important;
+	}
+
+	.sliderTextCustomize p {
+		font-size: 16px !important;
+		padding: 0 0% !important;
+	}
+
+	.whoWeAreContentsRight img {
+		width: 100% !important;
+		float: none !important;
+		margin-top: 25px !important;
+	}
+
+	.weShareCommonValuesHeading p {
+		padding-right: 0% !important;
+	}
+
+	.weShareCommonValuesContentsLeft img {
+		width: 100% !important;
+		height: 300px !important;
+	}
+
+	.weShareCommonValuesContentsLeft p {
+		margin: 0 !important;
+	}
+
+	.weShareCommonValuesContentsLeft {
+		padding-bottom: 40px;
+	}
+
+	.ourServiceHeading {
+		padding-bottom: 15% !important;
+	}
+
+	.ourServiceContentsAllServiceButton button {
+		padding: 2% 4% !important;
+	}
+
+	.owl-nav {
+		text-align: center;
+	}
+
+	.owl-carousel .owl-nav button.owl-next,
+	.owl-carousel .owl-nav button.owl-prev {
+		padding: 0px 5% !important;
+		font-size: 50px;
+	}
+
+	.singleOurBrand img {
+		width: 60% !important;
+	}
+
+	.technologiesAndBrandCommonCss2 h4,
+	.singleOurBrand h4 {
+		margin: 2% 0 5% 0 !important;
+	}
+
+	/* About Us Page */
+	.aboutBannerImager img {
+		height: 400px !important;
+	}
+
+	.singleOurValues {
+		padding-bottom: 15%;
+	}
+
+	.honorablePersonMessageInnerMessage p {
+		font-size: 15px !important;
+		line-height: 30px !important;
+	}
+
+	.honorablePersonMessageBgColor {
+		padding: 5% 5% !important;
+		border-radius: 10px !important;
+	}
+
+	.honorablePersonMessageInnerMessage p span i {
+		font-size: 15px !important;
+		margin-left: -20px !important;
+	}
+
+	.honorablePersonMessageInnerMessage span {
+		font-size: 16px !important;
+	}
+
+	.honorablePersonMessageInnerImage img {
+		border-radius: 10px !important;
+		width: 100% !important;
+		float: none !important;
+		margin-top: 5%;
+	}
+
+	.singleFactAboutUs {
+		padding-bottom: 10% !important;
+	}
+
+	.singleFactAboutUs p {
+		margin-left: 35% !important;
+	}
+
+	.factAboutUsText p {
+		padding: 6% 0% 0 0% !important;
+	}
+
+	/* Fortfolio page */
+	section#workBanner img {
+		height: 350px !important;
+	}
+
+	.singleProjectImage img {
+		height: 300px !important;
+	}
+
+	/* Service Page */
+	section#serviceBanner {
+		margin-bottom: 130px !important;
+		padding: 5% 0 100px 0 !important;
+	}
+
+	.serviceBannerImager img {
+		width: 70% !important;
+		height: 230px !important;
+		border-radius: 10px !important;
+		transform: translate(21%) !important;
+	}
+
+	.contactUsPersonInfo img {
+		width: 65% !important;
+	}
+
+	.contactUsPersonInfo {
+		text-align: center;
+	}
+
+	.contactUsPersonInfoData {
+		text-align: center !important;
+	}
+
+	/* Contact Page */
+	section#contactUsByTexts {
+		padding-bottom: 10% !important;
+		padding-top: 10% !important;
+	}
+
+	.contactUsByTextsHeading h1 {
+		padding: 0 10% 5% 10% !important;
+	}
+
+	.singleContactUsByTexts {
+		padding-bottom: 5%;
+	}
+
+	.contactBannerText {
+		margin-top: 10%;
+		margin-bottom: -5% !important;
+	}
+
+	/* Contact Page */
+	section#contactUsByTexts {
+		padding-bottom: 10% !important;
+		padding-top: 10% !important;
+	}
+
+	.contactUsByTextsHeading h1 {
+		padding: 0 10% 5% 10% !important;
+	}
+
+	.singleContactUsByTexts {
+		padding-bottom: 5%;
+	}
+
+	.contactBannerText {
+		margin-top: 10%;
+		margin-bottom: -5% !important;
+	}
+
+	/* Single service */
+	.singleServiceBannerText h3 {
+		font-size: 40px !important;
+		line-height: 50px !important;
+		margin-bottom: 15% !important;
+		padding: 10% 0% 0 0% !important;
+	}
+
+	.singleServiceBannerText h3:after {
+		width: 30% !important;
+	}
+
+	.singleServiceBannerText p {
+		font-size: 18px !important;
+		line-height: 30px !important;
+		padding: 0px 0% !important;
+		text-align: justify !important;
+	}
+
+	.singleServiceDetailsContents img {
+		height: 250px !important;
+	}
+
+	.singleServiceDetailsContents p {
+		font-size: 18px !important;
+		line-height: 30px !important;
+		padding: 5% 0% !important;
+	}
+
+	#singleServiceAccordionFlush button {
+		font-size: 16px !important;
+		line-height: 22px !important;
+		padding-right: 0;
+	}
+
+	.singleServiceAccordionFlushInnerData {
+		font-size: 16px !important;
+		font-weight: 400 !important;
+		line-height: 23px !important;
+	}
+
+	.accordion-body {
+		padding-left: 10px !important;
+	}
+
+	#singleServiceAccordionFlush {
+		padding: 0 0% !important;
+	}
+
+	.whyChooseUsSingle {
+		padding: 0 0% 8% 0% !important;
+	}
+
+	.singleServiceWhyChooseUsSingleSectionPicture img {
+		height: unset !important;
+		width: 100% !important;
+	}
+
+	.singleServiceWhyChooseUsSingleSectionTexts h5 {
+		font-size: 30px !important;
+	}
+
+	.singleServiceWhyChooseUsSingleSectionTexts p {
+		font-size: 16px !important;
+		line-height: 26px !important;
+	}
+
+	.whyChooseUsSingle:nth-child(odd) .singleServiceWhyChooseUsSingleSectionPicture {
+		margin-left: -95px;
+	}
+
+	/* Footer for all Pages */
+	#footer {
+		padding: 10% 0% 0% 0% !important;
+		text-align: center;
+	}
+
+	.footerLogoAndText p {
+		padding: 0 5% !important;
+	}
+
+	.headingForFooter {
+		padding-bottom: 40px;
+	}
+
+	.headingForFooter h3 {
+		margin-bottom: 5% !important;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+	.fullSiteWidthPadding {
+		padding-right: 0% !important;
+		padding-left: 0% !important;
+	}
+
+	.r300h {
+		padding: 0 10% 40px 10% !important;
+	}
+
+	.r300h h1 {
+		text-align: center;
+	}
+
+	/* Home Page */
+	.sliderTextCustomize {
+		padding-bottom: 14.5% !important;
+	}
+
+	.sliderCustomize img {
+		height: 450px !important;
+	}
+
+	.sliderTextCustomize h5 {
+		font-size: 25px !important;
+		padding: 0px 0px !important;
+	}
+
+	.sliderTextCustomize p {
+		font-size: 16px !important;
+		padding: 0 0% !important;
+	}
+
+	.whoWeAreContentsRight img {
+		width: 100% !important;
+		float: none !important;
+		margin-top: 25px !important;
+	}
+
+	.weShareCommonValuesHeading p {
+		padding-right: 0% !important;
+	}
+
+	.weShareCommonValuesContentsLeft img {
+		width: 100% !important;
+		height: 250px !important;
+	}
+
+	.weShareCommonValuesContentsLeft p {
+		margin: 0 !important;
+	}
+
+	.weShareCommonValuesContentsLeft {
+		padding-bottom: 40px;
+	}
+
+	.ourServiceContentsAllServiceButton button {
+		padding: 2% 4% !important;
+	}
+
+	.owl-nav {
+		text-align: center;
+	}
+
+	.owl-carousel .owl-nav button.owl-next,
+	.owl-carousel .owl-nav button.owl-prev {
+		padding: 0px 5% !important;
+		font-size: 50px;
+	}
+
+	.singleOurBrand img {
+		height: 70px !important;
+		margin-bottom: 5%;
+	}
+
+	.technologiesAndBrandCommonCss2 h4,
+	.singleOurBrand h4 {
+		margin: 2% 0 5% 0 !important;
+	}
+
+	.singleOurBrand {
+		padding-bottom: 10%;
+	}
+
+	/* About Us Page */
+	.aboutBannerImager img {
+		height: 500px !important;
+	}
+
+	.singleOurValues {
+		padding-bottom: 15%;
+	}
+
+	.singleOurValues p {
+		padding: 0 5% !important;
+	}
+
+	.honorablePersonMessageInnerMessage p {
+		font-size: 15px !important;
+		line-height: 30px !important;
+	}
+
+	.honorablePersonMessageBgColor {
+		padding: 5% 5% !important;
+		border-radius: 10px !important;
+	}
+
+	.honorablePersonMessageInnerMessage p span i {
+		font-size: 15px !important;
+		margin-left: -20px !important;
+	}
+
+	.honorablePersonMessageInnerMessage span {
+		font-size: 16px !important;
+	}
+
+	.honorablePersonMessageInnerImage img {
+		border-radius: 10px !important;
+		width: 100% !important;
+		float: none !important;
+		margin-top: 5%;
+	}
+
+	.singleFactAboutUs {
+		padding-bottom: 10% !important;
+	}
+
+	.singleFactAboutUs p {
+		margin-left: 35% !important;
+	}
+
+	.factAboutUsText p {
+		padding: 6% 0% 0 0% !important;
+	}
+
+	section#ourTeam {
+		padding-top: 15%;
+	}
+
+	.offset-md-2 {
+		margin-left: 0 !important;
+	}
+
+	.teamPadding {
+		padding: 0px;
+	}
+
+	.team50 {
+		padding: 0;
+	}
+
+	/* Fortfolio page */
+	section#workBanner img {
+		height: 350px !important;
+	}
+
+	.singleProjectImage img {
+		height: 300px !important;
+	}
+
+	/* Service Page */
+	section#serviceBanner {
+		margin-bottom: 130px !important;
+		padding: 5% 0 160px 0 !important;
+	}
+
+	.serviceBannerImager img {
+		width: 70% !important;
+		height: 300px !important;
+		border-radius: 10px !important;
+		transform: translate(21%) !important;
+	}
+
+	.contactUsPersonInfo img {
+		width: 80% !important;
+	}
+
+	.contactUsPersonInfo {
+		text-align: center;
+	}
+
+	.contactUsPersonInfoData {
+		text-align: center !important;
+	}
+
+	/* Single service */
+	.singleServiceBannerText h3 {
+		font-size: 55px !important;
+		line-height: 65px !important;
+		margin-bottom: 10% !important;
+		padding: 10% 0% 0 0% !important;
+	}
+
+	.singleServiceBannerText h3:after {
+		width: 30% !important;
+		bottom: -12% !important;
+	}
+
+	.singleServiceBannerText p {
+		font-size: 20px !important;
+		line-height: 32px !important;
+		padding: 0px 0% !important;
+		text-align: justify !important;
+	}
+
+	.singleServiceDetailsContents img {
+		height: 300px !important;
+	}
+
+	.singleServiceDetailsContents p {
+		font-size: 18px !important;
+		line-height: 30px !important;
+		padding: 5% 0% !important;
+	}
+
+	#singleServiceAccordionFlush button {
+		font-size: 16px !important;
+		line-height: 22px !important;
+		padding-right: 0;
+	}
+
+	.singleServiceAccordionFlushInnerData {
+		font-size: 16px !important;
+		font-weight: 400 !important;
+		line-height: 23px !important;
+	}
+
+	.accordion-body {
+		padding-left: 10px !important;
+	}
+
+	#singleServiceAccordionFlush {
+		padding: 0 0% !important;
+	}
+
+	.whyChooseUsSingle {
+		padding: 0 0% 8% 0% !important;
+	}
+
+	.singleServiceWhyChooseUsSingleSectionPicture img {
+		height: unset !important;
+		width: 100% !important;
+	}
+
+	.singleServiceWhyChooseUsSingleSectionTexts h5 {
+		font-size: 30px !important;
+	}
+
+	.singleServiceWhyChooseUsSingleSectionTexts p {
+		font-size: 16px !important;
+		line-height: 26px !important;
+	}
+
+	.whyChooseUsSingle:nth-child(odd) .singleServiceWhyChooseUsSingleSectionPicture {
+		margin-left: -65px;
+	}
+
+	.r300s {
+		padding-bottom: 10% !important;
+	}
+
+	/* Footer for all Pages */
+	#footer {
+		padding: 10% 0% 0% 0% !important;
+		text-align: center;
+	}
+
+	.footerLogoAndText a img {
+		width: 30% !important;
+	}
+
+	.footerLogoAndText p {
+		padding: 0 15% !important;
+		text-align: center !important;
+	}
+
+	.headingForFooter {
+		padding-bottom: 40px;
+	}
+
+	.headingForFooter h3 {
+		margin-bottom: 5% !important;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+	/* Global #css heading */
+	.fullSiteWidthPadding {
+		padding-right: 0% !important;
+		padding-left: 0% !important;
+	}
+
+	.r300h {
+		padding: 0 10% 40px 10% !important;
+	}
+
+	.r300h h1 {
+		text-align: center;
+	}
+
+	/* Home page */
+	.sliderTextCustomize {
+		padding-bottom: 14.5% !important;
+	}
+
+	.sliderCustomize img {
+		height: 500px !important;
+	}
+
+	.sliderTextCustomize h5 {
+		font-size: 25px !important;
+		padding: 0px 0px !important;
+	}
+
+	.sliderTextCustomize p {
+		font-size: 16px !important;
+		padding: 0 0% !important;
+	}
+
+	.whoWeAreContentsRight img {
+		width: 100% !important;
+		float: none !important;
+		margin-top: 25px !important;
+	}
+
+	.weShareCommonValuesHeading p {
+		padding-right: 0% !important;
+	}
+
+	.weShareCommonValuesContentsLeft img {
+		width: 100% !important;
+		height: 250px !important;
+	}
+
+	.weShareCommonValuesContentsLeft p {
+		margin: 0 !important;
+	}
+
+	.weShareCommonValuesContentsLeft {
+		padding-bottom: 40px;
+	}
+
+	.ourServiceContentsAllServiceButton button {
+		padding: 2% 4% !important;
+	}
+
+	.owl-nav {
+		text-align: center;
+	}
+
+	.owl-carousel .owl-nav button.owl-next,
+	.owl-carousel .owl-nav button.owl-prev {
+		padding: 0px 5% !important;
+		font-size: 50px;
+	}
+
+	.singleOurBrand img {
+		margin-bottom: 5%;
+	}
+
+	.technologiesAndBrandCommonCss2 h4,
+	.singleOurBrand h4 {
+		margin: 2% 0 5% 0 !important;
+	}
+
+	.singleOurBrand {
+		padding-bottom: 10%;
+	}
+
+	/* About us */
+	section#ourTeam {
+		padding-top: 10%;
+	}
+
+	.aboutBannerImager img {
+		height: 600px !important;
+	}
+
+	.offset-md-2 {
+		margin-left: 5%;
+	}
+
+	.teamPadding {
+		padding: 0px;
+	}
+
+	.team50 {
+		padding: 0;
+	}
+
+	/* Fortfolio page */
+	section#workBanner img {
+		height: 400px !important;
+	}
+
+	.singleProjectImage img {
+		height: 300px !important;
+	}
+
+	/* Single service */
+	.singleServiceDetailsContents img {
+		height: 400px !important;
+	}
+
+	#singleServiceAccordionFlush {
+		padding: 0 0% !important;
+	}
+
+	.singleServiceWhyChooseUsSingleSectionPicture img {
+		height: unset !important;
+		width: 100% !important;
+	}
+
+	.singleServiceWhyChooseUsSingleSectionTexts h5 {
+		font-size: 30px !important;
+	}
+
+	.singleServiceWhyChooseUsSingleSectionTexts p {
+		font-size: 16px !important;
+		line-height: 26px !important;
+	}
+
+	.whyChooseUsSingle:nth-child(odd) .singleServiceWhyChooseUsSingleSectionPicture {
+		margin-left: -65px;
+	}
+
+	section#technologiesWeAreUsing {
+		padding-bottom: 5%;
+	}
+
+	.technologiesWeAreUsingHeading h4 {
+		padding-bottom: 0% !important;
+	}
+
+	/* Footer page */
+	#footer {
+		padding: 10% 0% 0% 0% !important;
+		text-align: center;
+	}
+
+	.footerLogoAndText a img {
+		width: 30% !important;
+	}
+
+	.footerLogoAndText p {
+		padding: 0 15% !important;
+		text-align: center !important;
+	}
+
+	.headingForFooter {
+		padding-bottom: 40px;
+	}
+
+	.headingForFooter h3 {
+		margin-bottom: 5% !important;
+	}
+
+	/* Service Page */
+	section#serviceBanner {
+		margin-bottom: 130px !important;
+		padding: 5% 0 160px 0 !important;
+	}
+
+	.serviceBannerImager img {
+		width: 70% !important;
+		height: 300px !important;
+		border-radius: 10px !important;
+		transform: translate(21%) !important;
+	}
+
+	.contactUsPersonInfo img {
+		width: 80% !important;
+	}
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+	/* Global #css heading */
+	.fullSiteWidthPadding {
+		padding-right: 0% !important;
+		padding-left: 0% !important;
+	}
+
+	/* CSS heading */
+
+	.sliderTextCustomize {
+		padding-bottom: 14.5% !important;
+	}
+
+	.sliderCustomize img {
+		height: 500px !important;
+	}
+
+	.sliderTextCustomize h5 {
+		padding: 0px 0px !important;
+	}
+
+	.sliderTextCustomize p {
+		font-size: 18px !important;
+		padding: 0 0% !important;
+	}
+
+	.whoWeAreContentsRight img {
+		width: 100% !important;
+		float: none !important;
+		margin-top: 25px !important;
+	}
+
+	.weShareCommonValuesContentsLeft {
+		padding-bottom: 40px;
+	}
+
+	.ourServiceContentsAllServiceButton button {
+		padding: 2% 4% !important;
+	}
+
+	.owl-nav {
+		text-align: center;
+	}
+
+	.owl-carousel .owl-nav button.owl-next,
+	.owl-carousel .owl-nav button.owl-prev {
+		padding: 0px 5% !important;
+		font-size: 50px;
+	}
+
+	.singleOurBrand img {
+		margin-bottom: 5%;
+	}
+
+	.technologiesAndBrandCommonCss2 h4,
+	.singleOurBrand h4 {
+		margin: 2% 0 5% 0 !important;
+	}
+
+	.singleOurBrand {
+		padding-bottom: 10%;
+	}
+
+	.footerLogoAndText p {
+		padding-right: 7% !important;
+	}
+
+	.headingForFooter {
+		padding-bottom: 40px;
+	}
+
+	.headingForFooter h3 {
+		margin-bottom: 5% !important;
+	}
+
+	.aboutBannerImager img {
+		height: 600px !important;
+	}
+
+	/* Fortfolio page */
+	section#workBanner img {
+		height: 450px !important;
+	}
+
+	/* Service Page */
+	section#serviceBanner {
+		margin-bottom: 130px !important;
+		padding: 5% 0 190px 0 !important;
+	}
+
+	.serviceBannerImager img {
+		width: 70% !important;
+		height: 350px !important;
+		border-radius: 10px !important;
+		transform: translate(21%) !important;
+	}
+
+	.contactUsPersonInfo img {
+		width: 65% !important;
+	}
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+	/* Service Page */
+	section#serviceBanner {
+		margin-bottom: 130px !important;
+		padding: 5% 0 230px 0 !important;
+	}
+
+	.serviceBannerImager img {
+		width: 70% !important;
+		height: 400px !important;
+		border-radius: 10px !important;
+		transform: translate(21%) !important;
+	}
+
+	/* Single service */
+	.whyChooseUsSingle {
+		padding: 0 0% 8% 0% !important;
+	}
+
+	section#technologiesWeAreUsing {
+		padding-bottom: 5%;
+	}
+}
